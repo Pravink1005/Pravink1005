@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Pravin Kumar 👋</h1>
 
 <p align="center">
-  <b>Data Analyst & Engineer</b> · Coimbatore, India
+  <b>Data Analyst & Engineer</b> · Thoothukudi, India
 </p>
 
 <p align="center">
