@@ -26,7 +26,7 @@ Data professional with **1+ year of hands-on experience** building, monitoring a
 class Pravin:
     role       = "Data Professional"
     experience = "1+ year in ETL, data quality & analytics"
-    focus      = ["ETL/ELT Pipelines", "Data Validation", "Analytics", "Dashboards"]
+    focus      = ["ETL/ELT Pipelines", "Web Scraping", "Data Validation", "Dashboards"]
     stack      = ["Python", "SQL", "PostgreSQL", "MongoDB", "AWS", "Jenkins", "Grafana"]
     education  = "M.Sc. Data Science and Business Analysis"
     status     = "Open to new opportunities 🚀"
@@ -38,7 +38,7 @@ class Pravin:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,postgres,mysql,mongodb,firebase,aws,jenkins,grafana,git,github,ubuntu,vscode&theme=dark" alt="skills" />
+<img src="https://skillicons.dev/icons?i=python,postgres,mysql,mongodb,sqlite,firebase,aws,jenkins,grafana,fastapi,react,nextjs,supabase,docker,git,github&theme=dark" alt="skills" />
 
 <br/><br/>
 
@@ -46,14 +46,16 @@ class Pravin:
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS%20(S3%2C%20EC2)-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
 </div>
 
@@ -64,11 +66,11 @@ class Pravin:
 | Area | Tools & Concepts |
 |---|---|
 | **Languages** | Python, SQL (Joins, CTEs, Window Functions) |
-| **Data Engineering** | ETL/ELT Pipelines, Data Warehousing, Data Modeling, Data Validation, Cleaning, Transformation, Workflow Automation, Job Scheduling |
-| **Analysis & Visualization** | EDA, Statistical Analysis, KPI Reporting, Excel, Power BI, Grafana, Streamlit, Pandas, NumPy, Matplotlib |
-| **Databases** | PostgreSQL, MySQL, MongoDB, Firebase |
-| **Cloud & DevOps** | AWS (S3, EC2), Jenkins (CI/CD), Git, GitHub, Ubuntu |
-| **Machine Learning** | XGBoost, Predictive Modeling, Scikit-learn |
+| **Data Engineering** | ETL/ELT Pipelines, Data Warehousing, Data Modeling, Data Validation, Cleaning, Transformation, Workflow Automation, Job Scheduling, Web Scraping |
+| **Analysis & Visualization** | EDA, Statistical Analysis, KPI Reporting, Excel, Power BI, Grafana, Streamlit, Pandas, NumPy, Matplotlib, Seaborn |
+| **Databases** | PostgreSQL, MySQL, MongoDB, SQLite, Firebase, Supabase |
+| **Cloud & DevOps** | AWS (S3, EC2), Jenkins (CI/CD), Docker, Git, GitHub, Ubuntu |
+| **Machine Learning** | XGBoost, Predictive Modeling, Scikit-learn, TF-IDF, OpenCV |
 | **Soft Skills** | Problem Solving, Critical Thinking, Communication, Time Management, Teamwork |
 
 </details>
@@ -117,46 +119,79 @@ flowchart LR
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/Pravink1005/weather-etl-pipeline-dashboard">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pravink1005&repo=weather-etl-pipeline-dashboard&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Pravink1005/Customer-Segmentation">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pravink1005&repo=Customer-Segmentation&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Pravink1005/Ecommerce-Sales-Analysis-Python-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pravink1005&repo=Ecommerce-Sales-Analysis-Python-&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Pravink1005/Titanic_Survival_Predictions">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pravink1005&repo=Titanic_Survival_Predictions&theme=tokyonight&hide_border=true" />
-</a>
+### 🇮🇳 [Job Intelligence System](https://github.com/Pravink1005/Job_Scraper)
+Scrapes tech jobs from **LinkedIn, Naukri and Indeed**, normalizes them into a unified **17-column schema**, fills missing qualifications with **ML enrichment**, removes duplicates and stores data in **CSV / SQLite / Supabase**. Includes a **Next.js dashboard** with a job explorer, application tracker, market insights, live scraper controls and role-based admin.
 
-</div>
+`Python` `Playwright` `JobSpy` `SQLite` `Next.js` `Supabase`
 
-### 🌦️ Weather ETL Pipeline & Analysis Dashboard
-`Python` `PostgreSQL` `Streamlit` · [View repo](https://github.com/Pravink1005/weather-etl-pipeline-dashboard)
+</td>
+<td width="50%" valign="top">
 
-- Ingests **real-time weather API data** for multiple Tamil Nadu cities with **automated hourly scheduling**
-- Modular workflows with **validation and transformation logic**, storing history in PostgreSQL for trend analysis
-- Interactive **Streamlit dashboard** for temperature, humidity and wind trends
+### 🌦️ [Weather ETL Pipeline & Dashboard](https://github.com/Pravink1005/weather-etl-pipeline-dashboard)
+End-to-end ETL pipeline ingesting **real-time weather API data** for Tamil Nadu cities with **hourly scheduling**, validation and transformation, history stored in **PostgreSQL**, and an interactive **Streamlit** dashboard for time-series analytics.
 
-### 🤖 AI-Based Project Cost Estimator
-`Python` `XGBoost` `Streamlit` `Firebase`
+`Python` `PostgreSQL` `Streamlit` `ETL`
 
-- AI-powered cost estimation system to support project planning
-- End-to-end data collection, cleaning, preprocessing and validation for model reliability
-- Automated **DOC and Excel reports**, interactive dashboards and **Firebase** cloud storage
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 [ResumeMatch ATS](https://github.com/Pravink1005/ATS-Resume-Job-Matcher)
+**Explainable ATS-style resume-to-job matcher** with evidence-based, weighted scoring across skills, experience, education and keywords. Upload a PDF/DOCX/TXT resume, paste a job description, and get requirement-level evidence and gap analysis. FastAPI + Streamlit, SQLite, Docker ready.
+
+`Python` `FastAPI` `Streamlit` `TF-IDF` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏨 [Hotel Booking Analytics](https://github.com/Pravink1005/Hotel-Booking-Analytics)
+Python **ETL pipeline on 119K+ real booking records** using **Data Lake (raw) → Data Warehouse (clean)** concepts: cleaning, feature engineering, and analysis of seasonality, cancellations and pricing (ADR) with visual reports.
+
+`Python` `Pandas` `ETL` `Data Warehouse`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🍎 [Fruit Import Intelligence](https://github.com/Pravink1005/fruit-import-intelligence)
+Uses historical CSV trade data to **project 30-day landed cost trends** with upper/lower confidence bounds, helping procurement teams anticipate price volatility and plan purchases.
+
+`Python` `Forecasting` `Analytics`
+
+</td>
+<td width="50%" valign="top">
+
+### 💰 [AI Project Cost Estimator](https://github.com/Pravink1005/Project-Cost-Estimator-using-AI-)
+**XGBoost-based cost prediction** from staffing, duration and materials across IT, Construction, Event, Marketing and Research projects, with cost-breakdown charts, risk assessment and downloadable **PDF/Excel** reports.
+
+`Python` `XGBoost` `Streamlit` `FPDF`
+
+</td>
+</tr>
+</table>
 
 ### 📁 More Projects
 
-| Project | Description | Stack |
+| Area | Project | What it does |
 |---|---|---|
-| [Customer Segmentation](https://github.com/Pravink1005/Customer-Segmentation) | Groups customers by behaviour for targeted marketing | `Python` `Jupyter` |
-| [Ecommerce Sales Analysis](https://github.com/Pravink1005/Ecommerce-Sales-Analysis-Python-) | Sales trends and revenue pattern analysis | `Python` `Pandas` |
-| [Titanic Survival Predictions](https://github.com/Pravink1005/Titanic_Survival_Predictions) | Classification model predicting survival | `Python` `ML` |
-| [Population Distribution](https://github.com/Pravink1005/Population_distribution) | Population data analysis and visualization | `Python` `Jupyter` |
-| [QR Code Attendance](https://github.com/Pravink1005/Simple-Qrcode-attendance-using-Opencv) | Attendance marking via QR scanning | `Python` `OpenCV` |
+| 🌐 **Web App** | [MindCare Therapy Centre](https://github.com/Pravink1005/PTW) | Clinic website with 11 services, appointment requests and an admin dashboard secured by Supabase Row Level Security · `React` `Vite` `Tailwind` `Supabase` |
+| 🎬 **Scraping + BI** | [IMDb Top 100 Analysis](https://github.com/Pravink1005/imdb-top100-data-analysis) | Scrapes IMDb Top 100, enriches via OMDb API, runs EDA, exports Excel reports and feeds a Power BI dashboard · `Python` `Power BI` |
+| 🤟 **Computer Vision** | [Sign Language Detection & Translation](https://github.com/Pravink1005/Sign-language-detection-and-translation) | Real-time hand-gesture recognition and translation to improve accessibility · `OpenCV` `cvzone` |
+| 📷 **Computer Vision** | [QR Code Attendance](https://github.com/Pravink1005/Simple-Qrcode-attendance-using-Opencv) | Marks attendance by scanning QR codes with a camera · `Python` `OpenCV` |
+| 🛍️ **ML** | [Customer Segmentation](https://github.com/Pravink1005/Customer-Segmentation) | Groups customers by behaviour for targeted marketing · `Jupyter` |
+| 🚢 **ML** | [Titanic Survival Predictions](https://github.com/Pravink1005/Titanic_Survival_Predictions) | Classification model predicting passenger survival · `Jupyter` |
+| 🏦 **ML** | [Bank Marketing](https://github.com/Pravink1005/Bank_Marketing-) | Analysis of bank marketing campaign data · `Jupyter` |
+| 📦 **Analysis** | [Ecommerce Sales Analysis](https://github.com/Pravink1005/Ecommerce-Sales-Analysis-Python-) | Sales trends and revenue patterns · `Python` `Pandas` |
+| 🚗 **Analysis** | [Accident Analysis](https://github.com/Pravink1005/Accident_analysis-using-python) | Road accident data analysis with Python · `Jupyter` |
+| 🌍 **Analysis** | [Population Distribution](https://github.com/Pravink1005/Population_distribution) | Population data analysis and visualization · `Jupyter` |
+| 📚 **Learning** | [Python for Data Science & AI](https://github.com/Pravink1005/Python-for-Data-Science_AI) | Notebooks and exercises covering Python, NumPy, Pandas, Matplotlib and ML basics |
+| 📚 **Learning** | [Python for Data Analytics](https://github.com/Pravink1005/Python-for-Data-Analytics) | Practice notebooks for data analytics with Python |
 
 ---
 
